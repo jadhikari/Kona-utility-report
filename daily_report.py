@@ -15,8 +15,8 @@ driver.get("https://www.kireilife.net/")
 time.sleep(2)
 
 #there are 4 user, you can chenge it according to your requerement.
-user_id = "hecj5784"
-password = "BrawnKona2018"
+user_id = "*********"
+password = "*********"
 
 id_name = driver.find_element(By.XPATH, '/html/body/div[1]/div/div[1]/div/div[2]/div/ul/li[5]/div[2]/form/div[2]/input')
 id_name.send_keys(user_id)
