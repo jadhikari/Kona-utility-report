@@ -13,8 +13,8 @@ driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get("https://www.kireilife.net/")
 time.sleep(2)
-user_id = "kireilife1009"
-password = "BrawnKona2018"
+user_id = "*********"
+password = "**********"
 
 id_name = driver.find_element(By.XPATH, '/html/body/div[1]/div/div[1]/div/div[2]/div/ul/li[5]/div[2]/form/div[2]/input')
 id_name.send_keys(user_id)
